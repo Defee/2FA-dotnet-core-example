@@ -2,7 +2,7 @@
 	"folders": [
 		{
 			"path": "."
-		}
+		},
 	],
 	"extensions": {
 		"recommendations": [
@@ -31,5 +31,16 @@
 			"IBM.output-colorizer",
 			"Shan.code-settings-sync"
 		]
+	},
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"**/obj/**":true,
+			"**/bin/**":true
+		}
 	}
 }
