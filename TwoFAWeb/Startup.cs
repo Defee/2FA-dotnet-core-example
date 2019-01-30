@@ -39,7 +39,6 @@ namespace TwoFAWeb
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-            
 
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlite(
@@ -47,7 +46,6 @@ namespace TwoFAWeb
             services.AddDefaultIdentity<IdentityUser>()
                 .AddDefaultUI(UIFramework.Bootstrap4)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
