@@ -3,5 +3,33 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"extensions": {
+		"recommendations": [
+			"jchannon.csharpextensions",
+			"ms-vscode.csharp",
+			"whizkydee.material-palenight-theme",
+			"xabikos.JavaScriptSnippets",
+			"tombonnike.vscode-status-bar-format-toggle",
+			"alexdima.copy-relative-path",
+			"generalov.open-in-editor-vscode",
+			"wmaurer.vscode-jumpy",
+			"christian-kohler.path-intellisense",
+			"ms-vscode.PowerShell",
+			"ckolkman.vscode-postgres",
+			"remimarsal.prettier-now",
+			"DotJoshJohnson.xml",
+			"shinnn.stylelint",
+			"mrmlnc.vscode-scss",
+			"craigthomas.supersharp",
+			"hbenl.vscode-test-explorer",
+			"k--kato.docomment",
+			"formulahendry.dotnet-test-explorer",
+			"ms-vsts.team",
+			"msjsdiag.debugger-for-chrome",
+			"DavidAnson.vscode-markdownlint",
+			"IBM.output-colorizer",
+			"Shan.code-settings-sync"
+		]
+	}
 }
