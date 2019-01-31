@@ -76,7 +76,7 @@ namespace TwoFAWeb
 
             app.UseAuthentication();
 
-            app.UseMvc();
+            app.UseMvcWithDefaultRoute();
         }
     }
 }
